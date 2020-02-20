@@ -28,7 +28,7 @@ and Gu,v is the DCT coefficient from coordinates "u" and "v" in the resulting 8x
 α(u) is 1/sqrt(2) if u=0 and 1 if u > 0.
 
 **Quantization phase** takes as input an 8x8 block of DCT coefficient and **divides** this block to an 8x8 quantization matrix obtaining an 8x8 quantized coefficients block.  
-Uses the following quantization matrix:
+Uses the following quantization matrix:  
 6   4   4   6   10  16  20  24  
 5   5   6   8   10  23  24  22  
 6   5   6   10  16  23  28  22  
